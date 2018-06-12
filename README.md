@@ -5,7 +5,7 @@
 Create a test plan for the site, which should include steps to identify both visual and functional defects on multiple browsers, devices, and platforms. 
 
 
-## **Before beginning, ask:**
+##  Questions Before Testing
 * What is the scope and timeline/budget?
   * What features, flows or pages need to be tested?
   * Is there a list of user flows?
@@ -36,6 +36,7 @@ Create a test plan for the site, which should include steps to identify both vis
 * Obtain approved designs + list of browser/device/OS's in scope + native devices and/or simulators
 * Proofread all content and check that the language matches the approved copy
 * Check for visual consistency between approved designs and web pages on ALL viewport sizes
+* Check for hoverstates, animations, and other dynamic visuals not represented in static designs 
 * Validate or create tickets for failures
 
 ### Accessibility:
@@ -52,7 +53,7 @@ Create a test plan for the site, which should include steps to identify both vis
 * Document successes/failures on the WCAG 2.0 checklist
 
 
-## Creating Tickets:
+## Creating Tickets
 * **Title:**`````<type>[optional scope]: <description>````` - clearly define *feature/location* + *issue* in the title
 * **Labels:**
   * Bug type (functional, design or accessibility bug)
@@ -71,7 +72,7 @@ Create a test plan for the site, which should include steps to identify both vis
   * to failed requirement
   * to approved design
 
-## Questions:
+## Questions
 
 *What research did you do to prepare for this exercise?*
 *  Reading blogs:
