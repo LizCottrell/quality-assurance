@@ -9,6 +9,7 @@
 
 ## Objectives
 Must answer these questions before beginning QA: 
+* What is the purpose of this QA test?
 * What is the scope and timeline/budget?
   * What features, flows or pages need to be tested?
   * Is there a list of user flows?
@@ -25,8 +26,9 @@ Must answer these questions before beginning QA:
 * Who do bugs get assigned to?  *e.g. back to project manager*
 
 ## Tasks
-* Testing
-* Reporting issues
+* Test
+* Report issues
+* Generate QA report 
 
 ### Creating tickets:
 * **Title:**`````<type>[optional scope]: <description>````` - clearly define *feature/location* + *issue* in the title
@@ -49,8 +51,9 @@ Must answer these questions before beginning QA:
 
 ## Assumptions or dependencies
 
-* Performance testing, development QA (unit, end-to-end) is not considered for this test plan
-* Not using testing tools like Selenium, Webdriver, Websockets, Cucumber, Postman, Ghost Inspector, Watir
+* Performance testing, development QA, stress testing, API testing, etc. is not considered for this test plan
+* This test plan covers usability, functional, design and accessibility QA
+* Manual testing; not using testing tools like Selenium, Webdriver, Websockets, Cucumber, Postman, Ghost Inspector, Watir
 * Environment: testing production
 * Purpose: this is a *comprehensive* QA audit of CNN.com
 * Constraints: None, I have unlimited time and budget. This is a best-case scenario. But in reality, what’s the scope? Can I delegate some of these QA tasks to the UI-developer, the UX-developer, the Designer?
@@ -68,6 +71,11 @@ Create a document breaking down CNN.com:
 
 ### Browsers/platforms/devices
 List everything within scope
+
+### Out of scope
+* advertisements
+* cable provider log-in
+* etc.
 
 ## Testing Strategy
 
