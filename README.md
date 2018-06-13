@@ -7,6 +7,9 @@
     * [Design QA](#design-qa)
     * [Functinal QA](#functional-qa)
     * [Accessibility QA](#accessibility-qa)
+* [Examples](#examples)
+    * [Test Cases](#test-cases)
+    * [Tickets](#tickets)
 * [Questions](#questions)
 
 # Preface
@@ -48,7 +51,7 @@ QA Exercise - creating a test plan
 
 # Scope
 
-## Pages/components/features
+## Pages, features & flows
 Break down CNN.com into pages, features and user flows.  
 
 Examples:
@@ -67,7 +70,7 @@ Examples:
     * Using CNN.com to watch TV and videos
     * Sharing articles via Facebook, Twitter and Email
 
-## Browsers/platforms/devices
+## Browsers, platforms & devices
 List everything within scope.
 
 ## Out of scope
@@ -126,35 +129,28 @@ Regression testing (make sure no other features were unintentionally broken afte
 
 ## Test Cases
 
-#### Searching for a topic of interest on CNN Tech 
-**Page:** CNN Tech
+### Searching for a topic of interest on CNN Tech 
+* **Page:** CNN Tech
+* **Feature:** Search
+* **Flow:** Search for a topic of interest
+* **Steps:**
+   * Step 1: Navigate to CNN Tech
+   * Step 2: Click on the search icon
+   * Step 3: Search for a topic of interest
+   * Step 4: *need requirements to write expected result*
+* **Edge Cases**
+   * Enter nothing in the search bar and click search
 
-**Feature:** Search
-
-**Flow:** Search for a topic of interest
-
-**Steps:**
-* Step 1: Navigate to CNN Tech
-* Step 2: Click on the search icon
-* Step 3: Search for a topic of interest
-* Step 4: Verify appropriate search results display on CNN Tech page
-
-**Edge Cases**
-* Enter nothing in the search bar and click search
-
-#### Sharing an article on CNN Travel using Twitter
-**Page:** CNN Travel
-
-**Feature:** Share an article
-
-**Flow:** Share an article using Twitter
-
-**Steps:**
-* Step 1: Navigate to CNN Travel
-* Step 2: Click into an article
-* Step 3: Click on the Twitter share icon under the headline
-* Step 4: Share article
-* Step 5: Check Twitter account to verify article is shared
+### Sharing an article on CNN Travel using Twitter
+* **Page:** CNN Travel
+* **Feature:** Share an article
+* **Flow:** Share an article using Twitter
+* **Steps:**
+   * Step 1: Navigate to CNN Travel
+   * Step 2: Click into an article
+   * Step 3: Click on the Twitter share icon under the headline
+   * Step 4: Share article
+   * Step 5: Check Twitter account to verify article is shared
 
 
 ## Tickets
