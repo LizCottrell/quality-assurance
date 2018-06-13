@@ -1,7 +1,14 @@
 # Test Plan - CNN.com
 
-## Questions Before Testing
+1. Objectives
+1. Tasks
+1. Assumptions or Dependencies
+1. Scope
+1. Testing Strategy
 
+
+## Objectives
+Must answer these questions before beginning QA: 
 * What is the scope and timeline/budget?
   * What features, flows or pages need to be tested?
   * Is there a list of user flows?
@@ -17,13 +24,28 @@
 * How do developers expect to receive bugs for failures? *e.g. JIRA tickets, verify necessary info*
 * Who do bugs get assigned to?  *e.g. back to project manager*
 
-## Outline pages/components/features, key workflows + specific tasks users will complete
+## Tasks
+* Testing
+* Reporting issues
 
-Create a document breaking down CNN.com:
-* Home page (navigation, article sections, ad-space, footer, etc.), Travel, Money, Video, etc.
-* Using search to find articles on topics of interest
-* Browsing news, clicking into articles and getting back to home screen
-* Using CNN.com to watch TV
+### Creating tickets:
+* **Title:**`````<type>[optional scope]: <description>````` - clearly define *feature/location* + *issue* in the title
+* **Labels:**
+  * Bug type (functional, design or accessibility bug)
+  * Priority
+  * Environment 
+  * Date
+  * URL
+* **Description:**
+  * Device (native or simulator), OS, browser combination
+  * User info: credentials used, account, account state, credit card used, etc
+  * Steps to Recreate
+  * Expected Result
+  * Actual Result
+* **Screenshots** or gif/video
+* **Links:** 
+  * to failed requirement
+  * to approved design
 
 ## Assumptions or dependencies
 
@@ -33,11 +55,21 @@ Create a document breaking down CNN.com:
 * Purpose: this is a *comprehensive* QA audit of CNN.com
 * Constraints: None, I have unlimited time and budget. This is a best-case scenario. But in reality, what’s the scope? Can I delegate some of these QA tasks to the UI-developer, the UX-developer, the Designer?
 
-## Browsers/platforms/devices
+## Scope
 
+### Pages/components/features
+Create a document breaking down CNN.com:
+* Home page (navigation, article sections, ad-space, footer, etc.), Travel, Money, Video, etc.
+
+### Key user flows
+* Using search to find articles on topics of interest
+* Browsing news, clicking into articles and getting back to home screen
+* Using CNN.com to watch TV
+
+### Browsers/platforms/devices
 List everything within scope
 
-## QA
+## Testing Strategy
 
 ### Exploratory QA (testing for *usability*)
 * Check all internal and external links, phone numbers, and spelling
@@ -78,23 +110,3 @@ List everything within scope
 * Document successes/failures on the WCAG 2.0 checklist (see ADA audit report)
 
 Regression testing (make sure no other features were unintentionally broken after fixes)
-
-## Creating Tickets
-
-* **Title:**`````<type>[optional scope]: <description>````` - clearly define *feature/location* + *issue* in the title
-* **Labels:**
-  * Bug type (functional, design or accessibility bug)
-  * Priority
-  * Environment 
-  * Date
-  * URL
-* **Description:**
-  * Device (native or simulator), OS, browser combination
-  * User info: credentials used, account, account state, credit card used, etc
-  * Steps to Recreate
-  * Expected Result
-  * Actual Result
-* **Screenshots** or gif/video
-* **Links:** 
-  * to failed requirement
-  * to approved design
